@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function Soal3() {
   /**
-   * ! APA PENYEBAB ERROR ?
+   * ? 1. hilangkan semua error dan deskripsikan apa penyebab error.
+   * ? 2. tampilkan data yang di panggil dari api tersebut.
    */
 
   return <SeachComponent />;
