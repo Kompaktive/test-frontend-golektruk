@@ -5,6 +5,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Soal2 from "./soal/soal2.tsx";
 import Soal3 from "./soal/soal3.tsx";
+import Soal5 from "./soal/soal5.tsx";
 
 const router = createBrowserRouter([
   {
@@ -45,12 +46,13 @@ const router = createBrowserRouter([
   },
   {
     path: "/soal5",
-    element: null,
+    element: <Soal5 />,
   },
 ]);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
+    <div id="modal-root"></div>
     <RouterProvider router={router} />
   </StrictMode>
 );
